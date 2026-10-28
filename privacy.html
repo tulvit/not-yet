@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Policy — Not Yet</title>
+    <meta
+      name="description"
+      content="Not Yet privacy policy: what the Chrome extension accesses, what it stores locally, and what it never collects."
+    >
+    <meta name="theme-color" content="#f8f5ef">
+    <link rel="icon" href="assets/logo128.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Not Yet home">
+          <img src="assets/logo128.png" alt="" width="36" height="36">
+          <span>Not Yet</span>
+        </a>
+        <nav class="nav" aria-label="Main">
+          <a href="index.html">Home</a>
+          <a href="privacy.html" aria-current="page">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article class="legal container">
+        <a class="back-link" href="index.html">← Back to Not Yet</a>
+
+        <h1>Privacy Policy</h1>
+        <p class="meta">Effective date: October 28, 2026 · Applies to Not Yet for Chrome</p>
+
+        <div class="callout">
+          <p>
+            <strong>Short version:</strong> Not Yet has no accounts, no analytics and
+            no servers. Your site list, settings and statistics stay on your device.
+            The extension reads the current page domain only to decide whether to show
+            the pause, and it never sends that information anywhere.
+          </p>
+        </div>
+
+        <h2>What the extension accesses</h2>
+        <p>
+          To provide its single purpose, Not Yet reads the domain and URL of the page
+          you are navigating to. This is processed locally on your device, only to
+          check whether the domain is on your personal pause list and to apply the
+          optional Uglify filter.
+        </p>
+        <p>
+          The extension does not store a browsing history, page titles or visit
+          timestamps, and it never transmits this information anywhere.
+        </p>
+
+        <h2>What is stored on your device</h2>
+        <p>The extension stores the following in <code>chrome.storage.local</code>:</p>
+        <ul>
+          <li>the list of domains you add;</li>
+          <li>your wait time, blocking-hours window, language and enabled state;</li>
+          <li>
+            aggregate counters of how many times the pause appeared and how many times
+            a site was opened.
+          </li>
+        </ul>
+        <p>
+          It also uses <code>chrome.storage.session</code> for short-lived per-tab
+          grants that prevent redirect loops after a countdown. All of this data stays
+          on your device.
+        </p>
+
+        <h2>What is not collected</h2>
+        <p>
+          Not Yet does not collect or transmit personally identifiable information,
+          health information, financial or payment information, authentication
+          information, personal communications, location data, user activity (such as
+          clicks, scrolling or keystrokes), or website content.
+        </p>
+        <p>
+          The extension does not use analytics, advertising, tracking pixels or remote
+          code.
+        </p>
+
+        <h2>Sharing</h2>
+        <p>
+          We do not sell, rent or transfer user data to third parties. No data is sent
+          to the developer or to any external server.
+        </p>
+
+        <h2>Retention and deletion</h2>
+        <p>
+          Your settings and site list remain on your device until you change them or
+          remove the extension. Usage counters can be cleared at any time from the
+          extension's statistics panel. Removing the extension deletes its locally
+          stored data.
+        </p>
+
+        <h2>Limited Use</h2>
+        <p>
+          Not Yet's use of information is limited to providing its single purpose:
+          pausing before user-listed sites and applying the optional Uglify filter. The
+          extension does not use or transfer data for advertising, profiling,
+          creditworthiness or any unrelated purpose.
+        </p>
+
+        <h2>Changes to this policy</h2>
+        <p>
+          If this policy changes, the effective date above will be updated. Continued
+          use of the extension after an update means you accept the revised policy.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Questions about this policy or the extension? Open an issue at
+          <a href="https://github.com/tulvit/not-yet/issues">github.com/tulvit/not-yet/issues</a>.
+        </p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>Not Yet — a pause before the urge.</span>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="https://github.com/tulvit/not-yet">GitHub</a>
+          <a href="https://github.com/tulvit/not-yet/issues">Report an issue</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
