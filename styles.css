@@ -256,6 +256,35 @@ h1 em {
   color: var(--accent-strong);
 }
 
+.btn-store {
+  min-height: 56px;
+  padding: 0 26px;
+  gap: 10px;
+  border-radius: 14px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 15.5px;
+  box-shadow: 0 10px 24px -8px rgba(199, 78, 46, 0.5), 0 1px 0 rgba(255, 255, 255, 0.14) inset;
+}
+
+.btn-store:hover {
+  background: var(--accent-strong);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.btn-store svg {
+  width: 21px;
+  height: 21px;
+  flex: none;
+}
+
+.store-note {
+  margin: 12px 0 0;
+  color: var(--faint);
+  font-size: 12px;
+}
+
 .badges {
   display: flex;
   flex-wrap: wrap;
@@ -654,6 +683,18 @@ h2 {
 
   .hero {
     padding-top: 40px;
+  }
+
+  .actions {
+    align-items: stretch;
+  }
+
+  .actions .btn {
+    width: 100%;
+  }
+
+  .btn-store {
+    min-height: 54px;
   }
 
   h1 {
